@@ -4,5 +4,6 @@
   "viewportHeight": 900,
   "defaultCommandTimeout": 5000,
   "experimentalStudio": true,
-  "experimentalSessionSupport": true
+  "experimentalSessionSupport": true,
+  "experimentalSessionAndOrigin": true
 }

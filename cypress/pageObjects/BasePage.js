@@ -44,6 +44,13 @@ class BasePage {
       .location(options)
       .should((loc) => expect(loc.href).to.include(options.expectedUrl));
   }
+
+  static get submitButton (){
+    return cy.get('#submitButton');
+  }
+  static get rows() {
+    return cy.get("mat-row");
+  }
 }
 
 export default BasePage;
